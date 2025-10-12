@@ -1,27 +1,188 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>モッピー案件マニュアル</title>
-<style>
-body {font-family: "Helvetica Neue", Arial, sans-serif; background: #fafafa; color: #333; line-height: 1.8;}
-header {background: #ff914d; color: white; text-align: center; padding: 1.2em; font-size: 1.4em; font-weight: bold;}
-section {background: #fff; border-radius: 12px; margin: 1.5em auto; padding: 1.5em; width: 90%; max-width: 780px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);}
-h2 {color: #ff6f00; border-left: 6px solid #ffb74d; padding-left: 10px;}
-strong {color: #e65100;}
-.img-box {display: flex; flex-direction: column; gap: 10px;}
-.img-box img {width: 100%; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);}
-footer {text-align: center; color: #999; font-size: 0.85em; margin: 3em 0 2em;}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>モッピー案件マニュアル</title>
+  <style>
+    body {
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      background: #fafafa;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      line-height: 1.8;
+    }
+    header {
+      background: #ff914d;
+      color: white;
+      padding: 1.2em;
+      text-align: center;
+      font-size: 1.4em;
+      letter-spacing: 0.05em;
+      font-weight: bold;
+    }
+    section {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      margin: 1.5em auto;
+      padding: 1.5em;
+      width: 90%;
+      max-width: 780px;
+    }
+    h2 {
+      color: #ff6f00;
+      border-left: 6px solid #ffb74d;
+      padding-left: 10px;
+      margin-bottom: 0.5em;
+    }
+    p {
+      font-size: 0.95em;
+      margin: 0.5em 0 1em;
+    }
+    strong { color: #e65100; }
+    .red {
+      color: red;
+      font-weight: bold;
+    }
+    .img-box {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .img-box img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1em 0;
+      font-size: 0.95em;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: center;
+    }
+    th {
+      background: #ffe0b2;
+    }
+    footer {
+      text-align: center;
+      color: #999;
+      font-size: 0.85em;
+      margin: 3em 0 2em;
+    }
+  </style>
 </head>
 <body>
-<header>モッピー案件マニュアル</header>
-<section>
-<h2>Step 13：モッピーのメニューからポイント反映を確認</h2>
-<p>モッピー左上の三本線メニュー→マイページから確認。判定中ポイントに反映されているかチェック。</p>
-<div class="img-box"><img src="スクリーンショット 2025-10-12 21.00.45.jpeg" alt="モッピーポイント確認画面"></div>
-</section>
-<footer>© 2025 モッピー案件マニュアル | 作成者：ok</footer>
+  <header>モッピー案件マニュアル</header>
+
+  <!-- Step 1：概要 -->
+  <section>
+    <h2>概要</h2>
+    <p><strong>案件名：</strong> モッピー案件</p>
+    <h3>獲得ポイント内訳</h3>
+    <table>
+      <tr><th>種別</th><th>獲得ポイント</th><th>付与タイミング</th></tr>
+      <tr><td>紹介</td><td>2000pt</td><td>12月下旬</td></tr>
+      <tr><td>5000pt獲得達成</td><td>2000pt</td><td>12月下旬</td></tr>
+      <tr><td>ディズニープラス</td><td>4000pt</td><td>※</td></tr>
+      <tr><td>U-NEXT</td><td>2000pt</td><td>※</td></tr>
+    </table>
+    <p>※無料期間内にポイント反映予定</p>
+
+    <h3>ポイント換金方法</h3>
+    <p>セブン銀行ATMでの受取</p>
+
+    <h3>注意点</h3>
+    <ul>
+      <li>SMS認証があるため1SIMで1アカウント</li>
+      <li>同一IP判定で弾かれる可能性あり<br>→プライベートモード・キャッシュ削除・機内モードON/OFF推奨</li>
+      <li>ポイント交換時にSMS認証があるため、最低12月末まで維持予定の回線で行う</li>
+      <li class="red">複垢判定防止のため、5回線を1グループとして以下の様に登録する</li>
+    </ul>
+    <p>
+      1回線目：紹介なしで登録<br>
+      2回線目：1回線目からの紹介で登録<br>
+      3回線目：2回線目からの紹介で登録<br>
+      4回線目：3回線目からの紹介で登録<br>
+      5回線目：4回線目からの紹介で登録<br>
+      次のグループで同じ手順を繰り返す
+    </p>
+  </section>
+
+  <!-- Step 2〜Step 13：画像＋テキスト -->
+  <section>
+    <h2>Step 5：下部メニューの「紹介」からキャンペーンにエントリー</h2>
+    <div class="img-box">
+      <img src="IMG_0067.png" alt="モッピー紹介キャンペーン画面">
+    </div>
+  </section>
+
+  <section>
+    <h2>Step 10：モッピーに戻りDisney＋へ進む</h2>
+    <div class="img-box">
+      <img src="IMG_0073.png" alt="モッピーDisneyプラス案件選択1">
+      <img src="IMG_0074.png" alt="モッピーDisneyプラス案件選択2">
+      <img src="IMG_0075.png" alt="モッピーDisneyプラス案件POINT GET画面">
+    </div>
+  </section>
+
+  <section>
+    <h2>Step 11：スタンダードプランを選択しメールアドレスとパスワードを登録</h2>
+    <p>
+      Disney+の公式サイトでプランを選択。<br>
+      <strong>「ディズニープラス スタンダード」</strong>をタップし、<br>
+      モッピーと同じメールアドレスを入力→「続ける」→「OK」。<br>
+      パスワードを設定し、「同意して続ける」を選択。
+    </p>
+    <div class="img-box">
+      <img src="IMG_0076.png" alt="ディズニープラスプラン選択">
+      <img src="IMG_0077.png" alt="メールアドレス入力">
+      <img src="IMG_0078.png" alt="メール確認">
+      <img src="IMG_0080.png" alt="パスワード登録">
+    </div>
+  </section>
+
+  <section>
+    <h2>Step 12：月額を選択しクレカ情報を入力して登録完了</h2>
+    <p>
+      プランは<strong>「月額 ¥1,140」</strong>を選択。<br>
+      支払い方法はクレジット／PayPal／PayPay。<br>
+      入力後「同意して開始」を押して登録完了。<br>
+      「Disney+へようこそ」が表示されたら完了です。
+    </p>
+    <div class="img-box">
+      <img src="IMG_0081.png" alt="月額プラン選択">
+      <img src="IMG_0082.png" alt="クレジットカード入力">
+      <img src="IMG_0083.PNG" alt="Disney+登録完了画面">
+    </div>
+  </section>
+
+  <section>
+    <h2>Step 13：モッピーのメニューからポイント反映を確認</h2>
+    <p>
+      モッピー左上の<strong>三本線メニュー</strong>→「マイページ」から確認。<br>
+      <strong>判定中ポイント</strong>に反映されているかチェック。<br><br>
+      ⚠️ <strong>注意：</strong><br>
+      ・U-NEXT：即日反映<br>
+      ・Disney＋：反映まで数日<br><br>
+      ✅ ポイント付与後の流れ<br>
+      ・U-NEXT、Disney＋を解約<br>
+      ・12月末以降キャンペーンポイント反映後、<br>
+        セブン銀行ATMで受取
+    </p>
+    <div class="img-box">
+      <img src="スクリーンショット 2025-10-12 21.00.45.jpeg" alt="モッピーポイント確認画面">
+    </div>
+  </section>
+
+  <footer>
+    © 2025 モッピー案件マニュアル | 作成者：okz-ame
+  </footer>
 </body>
 </html>
